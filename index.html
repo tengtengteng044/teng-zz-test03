@@ -1,0 +1,1310 @@
+<!DOCTYPE html>
+<html lang="en" loading="lazy">
+<head loading="lazy">
+	
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://adabunalima5.github.io/file/css/01/01.css"/> 
+  <!--hilltopads jangan hapus kalo pake iklan darinya --><meta content='no-referrer-when-downgrade' name='referrer'/>
+    
+  
+    
+    <meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='robots'/>
+    
+    
+    <link href='https://nengmaya538.github.io/favicon.png' rel='icon' sizes='32x32' type='image/png'/>
+  <link href='https://nengmaya538.github.io/favicon.ico' rel='shortcut icon'/>
+  <link href='https://nengmaya538.github.io/apple-touch-icon.png' rel='apple-touch-icon' sizes='180x180'/>
+  
+<!-- Google tag (gtag.js) - multiple accounts -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WT93W2845E"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-WT93W2845E'); // goblog google
+  gtag('config', 'G-XHCGVT06EJ'); // raisfazriansyah722@gmail.com
+  gtag('config', 'G-L239NSVMTN'); // indrianitresna42@gmail.com
+  gtag('config', 'G-VK24YT5M3Z');
+  gtag('config', 'G-XK27E9HEDZ'); // r.fazriansyah@gmail.com
+  gtag('config', 'G-LJ7MJ4Q2VW'); // raisfazriansyah01@gmail.com
+  gtag('config', 'G-W9876DR1JZ'); //asri38770@gmail.com
+  gtag('config', 'G-YFK8DZ3FHK'); //raisfazriansyah4@gmail.com
+  gtag('config', 'G-5RHX9ESPY6'); //simerah9250@gmail.com
+  gtag('config', 'G-59F9MSH3TZ'); //nyolspa1@gmail.com
+  gtag('config', 'G-F373NVXTWS'); //boktem78@gmail.com
+  gtag('config', 'G-137DJLDD8M'); //jsamsu226@gmail.com
+  gtag('config', 'G-ZT95SW0ZHJ'); //ninggrai@gmail.com
+</script><script>
+(function(w,d,s,l,i){
+  w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;
+  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NWD665DQ');
+</script>
+
+
+	
+  
+ </head>
+ <body loading="lazy">
+<!-- Header blog dengan ID dan Class yang unik -->
+<header class="blog-header-main floating-header-main" loading="lazy">
+  <div class="header-content-main">
+    <h1 id="mainTitle" class="blog-title-main"></h1>
+    <div class="nav-actions-main">
+      <button class="nav-button-main menu-btn-main" id="blogMenuToggle" title="Menu" aria-label="Menu">
+        <!-- Hamburger Icon -->
+        <svg id="blogIconMenu" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="menu-icon-main">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </path></svg>
+        <!-- Close Icon -->
+        <svg id="blogIconClose" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="menu-icon-main" style="display:none;">
+          <path d="M6 6l12 12M6 18l12-12"/>
+        </path></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<style>
+/* Header blog melayang dengan class unik */
+.blog-header-main.floating-header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1001;
+  border-bottom: none;
+}
+
+.header-content-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+/* Judul blog yang lebih besar dengan class unik */
+.blog-title-main {
+  margin: 0;
+  font-size: 20px;
+  color: #000;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.nav-actions-main {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Tombol menu - HITAM TANPA BACKGROUND dengan class unik */
+.menu-btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: none;
+  color: #000;
+  padding: 0;
+  cursor: pointer;
+  border-radius: 0;
+  transition: opacity 0.2s ease;
+}
+
+.menu-btn-main:hover {
+  opacity: 0.6;
+  background: transparent;
+}
+
+.menu-btn-main:active {
+  opacity: 0.4;
+}
+
+.menu-icon-main {
+  width: 24px;
+  height: 24px;
+  stroke: #000000;
+  fill: none;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Menu panel dropdown dengan ID unik */
+#blogMenuPanel {
+  display: none;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+#blogMenuPanel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#blogMenuPanel li {
+  margin: 0;
+  padding: 0;
+}
+
+#blogMenuPanel a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+#blogMenuPanel a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* DESKTOP - Menu dengan layout yang bagus untuk layar besar */
+@media (min-width: 1025px) {
+  .blog-header-main.floating-header-main {
+    padding: 12px 24px;
+  }
+  
+  .header-content-main {
+    max-width: 1400px;
+  }
+  
+  .blog-title-main {
+    font-size: 22px;
+  }
+  
+  .menu-btn-main {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .menu-icon-main {
+    width: 26px;
+    height: 26px;
+  }
+  
+  /* Menu untuk DESKTOP */
+  #blogMenuPanel {
+    top: 65px;
+    right: 24px;
+    padding: 20px;
+    min-width: 220px;
+    max-width: 250px;
+  }
+  
+  #blogMenuPanel a {
+    padding: 12px 16px;
+    font-size: 15px;
+    margin-bottom: 4px;
+  }
+  
+  #blogMenuPanel li:not(:last-child) a {
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+
+/* TABLET - Antara desktop dan mobile */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .blog-header-main.floating-header-main {
+    padding: 10px 16px;
+  }
+  
+  .header-content-main {
+    gap: 14px;
+  }
+  
+  .blog-title-main {
+    font-size: 18px;
+  }
+  
+  .menu-btn-main {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .menu-icon-main {
+    width: 22px;
+    height: 22px;
+    stroke-width: 2.5;
+  }
+  
+  /* Menu untuk TABLET */
+  #blogMenuPanel {
+    top: 58px;
+    right: 16px;
+    padding: 16px;
+    min-width: 200px;
+    max-width: 220px;
+  }
+  
+  #blogMenuPanel a {
+    padding: 10px 14px;
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  
+  #blogMenuPanel li:not(:last-child) a {
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+
+/* MOBILE - Optimal untuk layar kecil */
+@media (max-width: 768px) {
+  .blog-header-main.floating-header-main {
+    padding: 8px 12px;
+  }
+  
+  .blog-title-main {
+    font-size: 17px;
+  }
+  
+  .menu-btn-main {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .menu-icon-main {
+    width: 20px;
+    height: 20px;
+    stroke-width: 2.5;
+  }
+  
+  /* Menu untuk MOBILE */
+  #blogMenuPanel {
+    top: 56px;
+    right: 12px;
+    padding: 14px;
+    min-width: 180px;
+    max-width: 200px;
+  }
+  
+  #blogMenuPanel a {
+    padding: 9px 12px;
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+  
+  #blogMenuPanel li:not(:last-child) a {
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+
+/* MOBILE KECIL - Sangat compact */
+@media (max-width: 480px) {
+  .blog-header-main.floating-header-main {
+    padding: 8px 10px;
+  }
+  
+  .header-content-main {
+    gap: 12px;
+  }
+  
+  .blog-title-main {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .menu-btn-main {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .menu-icon-main {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2.5;
+  }
+  
+  /* Menu untuk MOBILE KECIL */
+  #blogMenuPanel {
+    top: 54px;
+    right: 10px;
+    padding: 12px;
+    min-width: 160px;
+    max-width: 180px;
+  }
+  
+  #blogMenuPanel a {
+    padding: 8px 10px;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  
+  #blogMenuPanel li:not(:last-child) a {
+    border-bottom: 1px solid #f0f0f0;
+  }
+}
+</style>
+
+<!-- Menu Panel dengan ID unik -->
+<div id="blogMenuPanel">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="https://mayaayam615.pages.dev/contact/">Contact</a></li>
+    <li><a href="https://mayaayam615.pages.dev/privacy-policy/">Privacy Policy</a></li>
+    <li><a href="https://mayaayam615.pages.dev/terms-and-conditions/">Terms & Conditions</a></li>
+  </ul>
+</div>
+
+<script>
+// Fungsi untuk menampilkan judul blog dari domain dengan ID unik
+(function(){
+  const urlParams = new URLSearchParams(window.location.search);
+  const searchQuery = urlParams.get('q');
+  
+  // Jika ada query pencarian, tampilkan di title
+  if (searchQuery) {
+    const formattedQuery = searchQuery
+      .replace(/\+/g, ' ')
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+    document.getElementById("mainTitle").textContent = `${formattedQuery}`;
+    return;
+  }
+  
+  // Jika tidak ada query, gunakan domain seperti biasa
+  const host = window.location.hostname.split(".");
+  let sub = "";
+
+  if (host[0] === "www") {
+    sub = host[1];
+  } else if (host.length === 3) {
+    sub = host[0];
+  } else if (host.length === 4) {
+    sub = host[0];
+  } else {
+    sub = host[0];
+  }
+
+  const clean = sub.replace(/-/g, " ");
+  const title = clean.replace(/\b\w/g, c => c.toUpperCase());
+  document.getElementById("mainTitle").textContent = title;
+})();
+
+// Fungsi untuk toggle menu dengan ID unik
+(function(){
+  const toggleBtnBlog = document.getElementById('blogMenuToggle');
+  const menuPanelBlog = document.getElementById('blogMenuPanel');
+  const iconMenuBlog = document.getElementById('blogIconMenu');
+  const iconCloseBlog = document.getElementById('blogIconClose');
+
+  // Pastikan elemen ada sebelum menambahkan event listener
+  if (toggleBtnBlog && menuPanelBlog) {
+    toggleBtnBlog.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isVisible = menuPanelBlog.style.display === 'block';
+      
+      // Toggle display
+      menuPanelBlog.style.display = isVisible ? 'none' : 'block';
+      if (iconMenuBlog) iconMenuBlog.style.display = isVisible ? 'inline' : 'none';
+      if (iconCloseBlog) iconCloseBlog.style.display = isVisible ? 'none' : 'inline';
+      
+      // Posisikan menu panel di bawah tombol
+      if (!isVisible) {
+        const btnRect = toggleBtnBlog.getBoundingClientRect();
+        menuPanelBlog.style.top = (btnRect.bottom + 5) + 'px';
+        menuPanelBlog.style.right = (window.innerWidth - btnRect.right) + 'px';
+      }
+    });
+
+    // Tutup menu ketika klik di luar
+    document.addEventListener('click', (e) => {
+      if (menuPanelBlog.style.display === 'block' && 
+          !menuPanelBlog.contains(e.target) && 
+          !toggleBtnBlog.contains(e.target)) {
+        menuPanelBlog.style.display = 'none';
+        if (iconMenuBlog) iconMenuBlog.style.display = 'inline';
+        if (iconCloseBlog) iconCloseBlog.style.display = 'none';
+      }
+    });
+
+    // Tutup menu dengan ESC key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menuPanelBlog.style.display === 'block') {
+        menuPanelBlog.style.display = 'none';
+        if (iconMenuBlog) iconMenuBlog.style.display = 'inline';
+        if (iconCloseBlog) iconCloseBlog.style.display = 'none';
+      }
+    });
+
+    // Update posisi menu saat scroll atau resize
+    function updateBlogMenuPosition() {
+      if (menuPanelBlog.style.display === 'block') {
+        const btnRect = toggleBtnBlog.getBoundingClientRect();
+        menuPanelBlog.style.top = (btnRect.bottom + 5) + 'px';
+        menuPanelBlog.style.right = (window.innerWidth - btnRect.right) + 'px';
+      }
+    }
+
+    // Event listeners untuk update posisi
+    window.addEventListener('resize', updateBlogMenuPosition);
+    window.addEventListener('scroll', updateBlogMenuPosition);
+
+    // Inisialisasi posisi awal
+    window.addEventListener('load', updateBlogMenuPosition);
+  }
+})();
+</script>
+<!-- awal Seo Otomatis khusus untuk Homepage dan Search -->
+  <script>
+  (function () {
+    const hostname = location.hostname;
+    const pathname = location.pathname;
+    
+    // Ambil query pencarian dari URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const searchQuery = urlParams.get('q') || '';
+    
+    let subdomainRaw = hostname.split('.')[0];
+    if (subdomainRaw.toLowerCase() === 'www') subdomainRaw = hostname.split('.')[1] || '';
+
+    const formatText = str => str
+      .replace(/[-_]/g, ' ')
+      .replace(/\+/g, ' ')
+      .replace(/\b\w/g, c => c.toUpperCase());
+
+    const subdomain = formatText(subdomainRaw.trim());
+    const cleanPath = pathname.replace(/^\/+|\/+$/g, '');
+    const isHome = !cleanPath || /^index\.(html?|php)$/i.test(cleanPath);
+
+    let rawPageName = cleanPath.split('/').pop() || '';
+    rawPageName = rawPageName.replace(/\.[^.]+$/, '').trim();
+    rawPageName = decodeURIComponent(rawPageName);
+
+    // Cek jika halaman search dengan query
+    const isSearchPage = cleanPath === 'search' && searchQuery;
+    
+    let titleText;
+    let pageTitle;
+    let h1Title;
+    
+    if (isSearchPage) {
+      // Format query untuk title
+      const formattedQuery = searchQuery
+        .replace(/\+/g, ' ')
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+      
+      titleText = `${formattedQuery}`;
+      pageTitle = formattedQuery;
+      h1Title = formattedQuery;
+    } else {
+      titleText = isHome
+        ? subdomain
+        : `${formatText(rawPageName)} - ${subdomain}`;
+      pageTitle = isHome ? subdomain : formatText(rawPageName);
+      h1Title = pageTitle;
+    }
+
+    // Title di head
+    let titleTag = document.querySelector('title') || document.createElement('title');
+    titleTag.textContent = titleText;
+    if (!titleTag.parentNode) document.head.appendChild(titleTag);
+
+    // Update h1 di header jika ada
+    setTimeout(() => {
+      const mainTitle = document.getElementById('mainTitle');
+      const headingH1 = document.querySelector('main h2');
+      
+      if (mainTitle && isSearchPage) {
+        mainTitle.textContent = `${h1Title}`;
+      }
+      
+      if (headingH1 && isSearchPage) {
+        headingH1.textContent = `${h1Title}`;
+      }
+    }, 100);
+
+    // Meta author
+    let metaAuthor = document.querySelector('meta[name="author"]') || document.createElement('meta');
+    metaAuthor.name = 'author';
+    metaAuthor.content = `${h1Title}`;
+    if (!metaAuthor.parentNode) document.head.appendChild(metaAuthor);
+
+    // Meta description khusus search
+    if (isSearchPage) {
+      let metaDesc = document.querySelector('meta[name="description"]') || document.createElement('meta');
+      metaDesc.name = 'description';
+      metaDesc.content = `${searchQuery.replace(/\+/g, ' ')} on ${subdomain}. Find Leaked Photo, Video, and Content.`;
+      if (!metaDesc.parentNode) document.head.appendChild(metaDesc);
+    }
+
+    // Meta keywords khusus search
+    if (isSearchPage) {
+      let metaKeywords = document.querySelector('meta[name="keywords"]') || document.createElement('meta');
+      metaKeywords.name = 'keywords';
+      metaKeywords.content = `${searchQuery.replace(/\+/g, ', ')}`;
+      if (!metaKeywords.parentNode) document.head.appendChild(metaKeywords);
+    }
+
+    // Canonical
+    let canonical = document.querySelector('link[rel="canonical"]') || document.createElement('link');
+    canonical.setAttribute('rel', 'canonical');
+    canonical.setAttribute('href', location.href);
+    if (!canonical.parentNode) document.head.appendChild(canonical);
+
+  })();
+  </script>
+  <!-- akhir Seo Otomatis -->
+<main loading="lazy">
+<div class="spo">
+
+</div>
+
+  
+<style>
+/* STYLE UTAMA */
+.recent-posts {
+  margin: 3rem auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+.recent-posts h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.recent-posts .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Post Card Enhanced */
+.post-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #eee;
+  min-height: 280px;
+}
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+  border-color: var(--dynamic-color, #0078ff);
+}
+
+/* Tanggal */
+.post-date {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 0.8rem;
+  font-family: 'SF Mono', Monaco, 'Courier New', monospace;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+.post-date::before {
+  content: "";
+  font-size: 0.7rem;
+}
+
+/* Categories */
+.post-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.category-link {
+  display: inline-block;
+  background: #f0f5ff;
+  color: #0078ff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  border: 1px solid #e1eeff;
+}
+.category-link:hover {
+  background: #0078ff;
+  color: white;
+  border-color: #0078ff;
+}
+
+/* Judul */
+.post-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+.post-card h3 a {
+  text-decoration: none;
+  color: #222;
+  transition: color 0.2s ease;
+}
+.post-card h3 a:hover {
+  color: var(--dynamic-color, #0078ff);
+}
+
+/* Excerpt */
+.post-excerpt {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #555;
+  margin: 0 0 1rem 0;
+  flex-grow: 1;
+}
+
+/* Footer (Tags & Labels) */
+.post-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+  gap: 0.5rem;
+}
+
+/* Tags */
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.tag-link {
+  color: #666;
+  font-size: 0.8rem;
+  text-decoration: none;
+  font-family: 'SF Mono', Monaco, monospace;
+  transition: color 0.2s ease;
+  background: #f8f9fa;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+}
+.tag-link:hover {
+  color: var(--dynamic-color, #0078ff);
+  background: #f0f5ff;
+}
+
+/* Labels */
+.post-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.label-link {
+  color: #888;
+  font-size: 0.75rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  background: #f9f9f9;
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  border-left: 3px solid #ccc;
+}
+.label-link:hover {
+  color: var(--dynamic-color, #0078ff);
+  border-left-color: var(--dynamic-color, #0078ff);
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.pagination button,
+.pagination span {
+  flex-shrink: 0;
+}
+.pagination button {
+  background: var(--dynamic-color, #0078ff);
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+  min-width: 36px;
+}
+.pagination button:hover:not(:disabled) {
+  background: #005ec7;
+  transform: translateY(-1px);
+}
+.pagination button:disabled {
+  background: #ccc;
+  color: #555;
+  cursor: not-allowed;
+}
+.pagination span {
+  font-size: 0.9rem;
+  color: #333;
+  user-select: none;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  padding: 2rem;
+  grid-column: 1 / -1;
+  color: #666;
+}
+.loading::after {
+  content: "...";
+  animation: dots 1.5s steps(4, end) infinite;
+}
+@keyframes dots {
+  0%, 20% { content: ""; }
+  40% { content: "."; }
+  60% { content: ".."; }
+  80%, 100% { content: "..."; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .recent-posts .grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .post-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+}
+@media (max-width: 600px) {
+  .pagination {
+    gap: 0.3rem;
+  }
+  .pagination button {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.7rem;
+  }
+}
+</style>
+
+
+
+<section class="recent-posts" loading="lazy">      
+  <h2>Recent Posts</h2>
+  <div id="recent-posts-container" class="grid">
+    <div class="loading">Loading posts...</div>
+  </div>      
+  <div id="pagination" class="pagination"></div>      
+</section>      
+
+<script>
+// ========== KONFIGURASI ==========
+const POSTS_PER_PAGE = 12;
+
+// DAFTAR SOURCE YANG TERSEDIA
+const SOURCE_LIST = [
+  'https://rfazriansyah376.github.io',
+  'https://rfazriansyah376plus1.github.io',
+  'https://admintfusion.github.io',
+  'https://raisfazriansyah268.github.io',
+  'https://raindri.pages.dev',
+  'https://zulthacore.pages.dev',
+  'https://arkunflow.pages.dev',
+  'https://korvafield.pages.dev',
+  'https://adnestflick.github.io',
+  'https://indrimaya65h-hue.github.io',
+  'https://beatleakedflow.github.io',
+  'https://competitive-analysis.pages.dev',
+  'https://ninggrai.github.io',
+  'https://ninggrai01.pages.dev',
+  'https://xantharpulse.github.io',
+  'https://morvakmesh.pages.dev',
+  'https://kaldorsignal.github.io',
+  'https://vorynstream.pages.dev',
+  'https://tengtengteng044.github.io',
+  'https://eshvokgrid.github.io',
+  'https://draviktrace.github.io',
+  'https://ulmorthread.pages.dev',
+  'https://zarkaloom.github.io',
+  'https://havrixdrift.github.io',
+  'https://brunaxline.github.io',
+  'https://nythaloop.pages.dev',
+  'https://orvaklink.pages.dev',
+  'https://mayaayam615.github.io',
+  'https://mayaayam615.pages.dev'
+];
+
+// PILIH SOURCE SECARA ACAK
+const SELECTED_SOURCE = SOURCE_LIST[Math.floor(Math.random() * SOURCE_LIST.length)];
+const POSTS_SOURCE = `${SELECTED_SOURCE}/posts2.json`;
+const BASE_URL = SELECTED_SOURCE;
+
+// KONFIGURASI FILTER CATEGORY
+const TARGET_CATEGORY = 'seo';
+
+// PRELOAD KONEKSI KE SEMUA SOURCE (OPTIMASI KECEPATAN)
+function addPreconnect() {
+  SOURCE_LIST.forEach(source => {
+    const link = document.createElement('link');
+    link.rel = 'preconnect';
+    link.href = source;
+    document.head.appendChild(link);
+  });
+}
+addPreconnect();
+
+let currentPage = parseInt(new URLSearchParams(window.location.search).get('page')) || 1;
+let filteredPosts = [];
+let allPosts = [];
+
+// ========== FUNGSI UTILITY ==========
+function getCategoryCandidates(hostname) {
+  const parts = hostname.split('.');
+  if (parts.length < 2) return { sub: null, domain: null };
+  const maybeDomainIndex = parts.length - 3;
+  const domain = (maybeDomainIndex >= 0) ? parts[maybeDomainIndex] : parts[0];
+  const subLabels = (maybeDomainIndex > 0) ? parts.slice(0, maybeDomainIndex) : [];
+  const rawSub = subLabels.length ? subLabels.join('.') : null;
+  const normalize = s => String(s || '').replace(/[-.]+/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+  return { 
+    sub: rawSub ? normalize(rawSub) : null, 
+    domain: domain ? normalize(domain) : null 
+  };
+}
+
+function shuffleAllPosts(posts) {
+  if (!Array.isArray(posts) || posts.length === 0) return [];
+  const shuffled = [...posts];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function formatDate(dateString) {
+  if (!dateString) return '';
+  try {
+    const date = new Date(dateString);
+    if (isNaN(date.getTime())) return '';
+    const day = date.getDate();
+    const month = date.toLocaleDateString('id-ID', { month: 'short' }).replace('.', '');
+    const year = date.getFullYear();
+    return `${day} ${month} ${year}`;
+  } catch (e) {
+    return '';
+  }
+}
+
+// ========== STRUCTURED DATA UNTUK GOOGLE ==========
+function generateStructuredData(posts) {
+  // Ambil 10 postingan terbaru untuk structured data
+  const recentPosts = posts.slice(0, 10).map(post => ({
+    "@type": "BlogPosting",
+    "headline": post.title || 'Untitled',
+    "url": post.url ? (post.url.startsWith('/') ? `${BASE_URL}${post.url}` : `${BASE_URL}/${post.url}`) : BASE_URL,
+    "datePublished": post.date || new Date().toISOString().split('T')[0],
+    "description": post.excerpt || post.title || '',
+    "keywords": [...(post.tags || []), ...(post.labels || [])].join(', '),
+    "articleSection": post.categories ? post.categories.join(', ') : ''
+  }));
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": `Blog Network - ${SELECTED_SOURCE.replace('https://', '')}`,
+    "url": BASE_URL,
+    "blogPost": recentPosts
+  };
+  
+  // Hapus script lama jika ada
+  const oldScript = document.querySelector('script[type="application/ld+json"]');
+  if (oldScript) oldScript.remove();
+  
+  const script = document.createElement('script');
+  script.type = 'application/ld+json';
+  script.textContent = JSON.stringify(structuredData);
+  document.head.appendChild(script);
+}
+
+// ========== RENDER POST CARD ==========
+function renderPostCard(post) {
+  const article = document.createElement('article');
+  article.className = 'post-card';
+  
+  // TANGGAL
+  if (post.date) {
+    const formattedDate = formatDate(post.date);
+    if (formattedDate) {
+      const dateDiv = document.createElement('div');
+      dateDiv.className = 'post-date';
+      dateDiv.textContent = formattedDate;
+      article.appendChild(dateDiv);
+    }
+  }
+  
+  // CATEGORIES
+  if (post.categories?.length) {
+    const categoriesDiv = document.createElement('div');
+    categoriesDiv.className = 'post-categories spo';
+    
+    post.categories.forEach(category => {
+      if (category) {
+        const link = document.createElement('a');
+        link.href = `${BASE_URL}/categories?q=${encodeURIComponent(category)}`;
+        link.className = 'category-link';
+        link.textContent = category;
+        categoriesDiv.appendChild(link);
+      }
+    });
+    
+    if (categoriesDiv.children.length) article.appendChild(categoriesDiv);
+  }
+  
+  // JUDUL
+  const h3 = document.createElement('h3');
+  const titleLink = document.createElement('a');
+  const postUrl = post.url 
+    ? (post.url.startsWith('/') ? `${BASE_URL}${post.url}` : `${BASE_URL}/${post.url}`)
+    : BASE_URL;
+  titleLink.href = postUrl;
+  titleLink.textContent = post.title || '(no title)';
+  h3.appendChild(titleLink);
+  article.appendChild(h3);
+  
+  // EXCERPT
+  if (post.excerpt) {
+    const excerpt = document.createElement('p');
+    excerpt.className = 'post-excerpt';
+    excerpt.textContent = post.excerpt;
+    article.appendChild(excerpt);
+  }
+  
+  // FOOTER (Tags & Labels)
+  const hasTags = post.tags?.length;
+  const hasLabels = post.labels?.length;
+  
+  if (hasTags || hasLabels) {
+    const footer = document.createElement('div');
+    footer.className = 'post-footer';
+    
+    if (hasTags) {
+      const tagsDiv = document.createElement('div');
+      tagsDiv.className = 'post-tags spo';
+      
+      post.tags.forEach(tag => {
+        if (tag) {
+          const link = document.createElement('a');
+          link.href = `${BASE_URL}/tags?q=${encodeURIComponent(tag)}`;
+          link.className = 'tag-link';
+          link.textContent = `#${tag}`;
+          tagsDiv.appendChild(link);
+        }
+      });
+      
+      if (tagsDiv.children.length) footer.appendChild(tagsDiv);
+    }
+    
+    if (hasLabels) {
+      const labelsDiv = document.createElement('div');
+      labelsDiv.className = 'post-labels spo';
+      
+      post.labels.forEach(label => {
+        if (label) {
+          const link = document.createElement('a');
+          link.href = `${BASE_URL}/labels?q=${encodeURIComponent(label)}`;
+          link.className = 'label-link';
+          link.textContent = label;
+          labelsDiv.appendChild(link);
+        }
+      });
+      
+      if (labelsDiv.children.length) footer.appendChild(labelsDiv);
+    }
+    
+    if (footer.children.length) article.appendChild(footer);
+  }
+  
+  return article;
+}
+
+// ========== LOAD & PROCESS POSTS ==========
+async function loadAndProcessPosts() {
+  try {
+    const response = await fetch(POSTS_SOURCE);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+    
+    allPosts = await response.json();
+    
+    // Generate structured data untuk Google secepatnya
+    generateStructuredData(allPosts);
+    
+    // FILTER
+    const normalize = s => String(s || '').replace(/[-.]+/g, ' ').replace(/\s+/g, ' ').trim().toLowerCase();
+    
+    if (TARGET_CATEGORY?.trim()) {
+      const targetNormalized = normalize(TARGET_CATEGORY);
+      filteredPosts = allPosts.filter(p => 
+        p.categories?.some(c => c && normalize(c) === targetNormalized)
+      );
+    }
+    
+    if (!filteredPosts.length) {
+      const { sub: subCategory, domain: domainCategory } = getCategoryCandidates(window.location.hostname);
+      
+      if (subCategory) {
+        filteredPosts = allPosts.filter(p => 
+          p.categories?.some(c => c && normalize(c) === subCategory)
+        );
+      }
+      
+      if (!filteredPosts.length && domainCategory) {
+        filteredPosts = allPosts.filter(p => 
+          p.categories?.some(c => c && normalize(c) === domainCategory)
+        );
+      }
+    }
+    
+    if (!filteredPosts.length) {
+      filteredPosts = shuffleAllPosts(allPosts);
+    }
+    
+    // Sort by date untuk matched posts
+    if (filteredPosts.length && filteredPosts[0].date && 
+        (TARGET_CATEGORY || filteredPosts.length !== allPosts.length)) {
+      filteredPosts.sort((a, b) => {
+        const dateA = a.date ? new Date(a.date).getTime() : 0;
+        const dateB = b.date ? new Date(b.date).getTime() : 0;
+        return dateB - dateA;
+      });
+    }
+    
+    renderPosts();
+    
+  } catch (error) {
+    renderNoPosts();
+  }
+}
+
+// ========== RENDER POSTS & PAGINATION ==========
+function renderPosts() {
+  const container = document.getElementById('recent-posts-container');
+  const pagination = document.getElementById('pagination');
+  
+  if (!filteredPosts.length) {
+    renderNoPosts();
+    return;
+  }
+  
+  container.innerHTML = '';
+  pagination.innerHTML = '';
+  
+  const start = (currentPage - 1) * POSTS_PER_PAGE;
+  const end = start + POSTS_PER_PAGE;
+  const pagePosts = filteredPosts.slice(start, end);
+  
+  // Render post cards
+  pagePosts.forEach(post => {
+    container.appendChild(renderPostCard(post));
+  });
+  
+  // Pagination
+  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+  if (totalPages > 1) {
+    const prevBtn = document.createElement('button');
+    prevBtn.textContent = 'Prev';
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.onclick = () => changePage(currentPage - 1);
+    pagination.appendChild(prevBtn);
+    
+    const maxVisible = 5;
+    let startPage = Math.max(1, currentPage - 2);
+    let endPage = Math.min(totalPages, currentPage + 2);
+    
+    if (currentPage <= 3) {
+      endPage = Math.min(totalPages, maxVisible);
+    } else if (currentPage >= totalPages - 2) {
+      startPage = Math.max(1, totalPages - maxVisible + 1);
+    }
+    
+    if (startPage > 1) { 
+      addPageButton(1); 
+      if (startPage > 2) addEllipsis(); 
+    }
+    
+    for (let i = startPage; i <= endPage; i++) {
+      addPageButton(i);
+    }
+    
+    if (endPage < totalPages) { 
+      if (endPage < totalPages - 1) addEllipsis(); 
+      addPageButton(totalPages); 
+    }
+    
+    const nextBtn = document.createElement('button');
+    nextBtn.textContent = 'Next';
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.onclick = () => changePage(currentPage + 1);
+    pagination.appendChild(nextBtn);
+  }
+}
+
+// ========== PAGINATION HELPER ==========
+function addPageButton(page) {
+  const pagination = document.getElementById('pagination');
+  const pageBtn = document.createElement('button');
+  pageBtn.textContent = page;
+  
+  if (page === currentPage) {
+    pageBtn.disabled = true;
+    pageBtn.style.fontWeight = 'bold';
+  }
+  
+  pageBtn.onclick = () => changePage(page);
+  pagination.appendChild(pageBtn);
+}
+
+function addEllipsis() {
+  const pagination = document.getElementById('pagination');
+  const span = document.createElement('span');
+  span.textContent = '�';
+  span.style.padding = '0 0.3rem';
+  pagination.appendChild(span);
+}
+
+function changePage(page) {
+  currentPage = page;
+  renderPosts();
+  const newUrl = `${window.location.pathname}?page=${String(page).padStart(2, '0')}`;
+  history.pushState({}, '', newUrl);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ========== ERROR HANDLING ==========
+function renderNoPosts() {
+  const container = document.getElementById('recent-posts-container');
+  const pagination = document.getElementById('pagination');
+  
+  container.innerHTML = `
+    <div class="no-posts" style="text-align:center; padding:2rem; grid-column:1/-1;">
+      <h3>Content Unavailable</h3>
+      <p>Please check back later.</p>
+      <a href="${BASE_URL}" style="color:#0078ff;">Return to Homepage</a>
+    </div>
+  `;
+  
+  pagination.innerHTML = '';
+}
+
+// ========== INITIALIZE ==========
+document.addEventListener('DOMContentLoaded', () => {
+  loadAndProcessPosts();
+  
+  window.addEventListener('popstate', () => {
+    currentPage = parseInt(new URLSearchParams(window.location.search).get('page')) || 1;
+    renderPosts();
+  });
+});
+</script>
+  
+  </main>
+  <!--iklan--
+<style>
+  .floating {
+    position: fixed;
+    inset: 0;
+    z-index: 999999;
+  }
+</style>
+<div class="floating"></div>
+<script>
+  const targetUrl = 'https://crazylatchdisturbance.com/pathq6gj?key=6105988846108e4350fc8b9c0e24e898';
+
+  function goOnce() {
+    document.removeEventListener('click', goOnce);
+    document.removeEventListener('touchstart', goOnce);
+    window.location.href = targetUrl;
+  }
+
+  document.addEventListener('click', goOnce, { once: true });
+  document.addEventListener('touchstart', goOnce, { once: true });
+</script>
+<script src="https://crazylatchdisturbance.com/32/64/23/3264234363806ec0e893348dd95de423.js"></script>
+<script src="https://crazylatchdisturbance.com/a8/e8/80/a8e880a19d85a10b34fa0aa148d81dfa.js"></script>
+<script src="https://crazylatchdisturbance.com/b0/4c/e4/b04ce41a1d7859a8595c24882884ebc3.js"></script>
+<script src="https://crazylatchdisturbance.com/c9/bf/66/c9bf66d6e91c73de68101f4a5a28fd82.js"></script>
+<script src="https://crazylatchdisturbance.com/4d/3b/2f/4d3b2f5c1c9ec9c3177bd395ec59f5fb.js"></script>
+<script src="https://crazylatchdisturbance.com/fc/25/d9/fc25d911fbee00957b924f3f48c4c58c.js"></script>
+<script src="https://crazylatchdisturbance.com/fc/1f/41/fc1f414371b3b98828f470de76b72714.js"></script>
+<script src="https://crazylatchdisturbance.com/e7/fb/f2/e7fbf24cc7fecd03b6e98719b19e225b.js"></script>
+<script src="https://crazylatchdisturbance.com/5c/94/27/5c9427ef446b0fed6096c80159d5dc56.js"></script><script src="https://crazylatchdisturbance.com/4d/2d/b3/4d2db33c5702ad73029bfb36f90f5ef8.js"></script><script src="https://crazylatchdisturbance.com/4c/cb/43/4ccb43cbde27c2c051e70024585c39a2.js"></script><script src="https://crazylatchdisturbance.com/f0/2c/56/f02c56e686c4ea260c2df03ffa138c02.js"></script>
+<script src="https://crazylatchdisturbance.com/dc/8f/7c/dc8f7c8babb4d7dbfa4d45c1f0f401b0.js"></script>
+<script src="https://crazylatchdisturbance.com/07/29/de/0729de45fd81c90595ace73217c31510.js"></script>
+<script src="https://crazylatchdisturbance.com/34/12/e6/3412e601d01b72d67877f992e8514ac1.js"></script>
+<script src="https://crazylatchdisturbance.com/18/ab/12/18ab129b81fa52620e972ed1d5457836.js"></script>
+<script src="https://crazylatchdisturbance.com/9a/f4/52/9af45219ac25f6be651d97414055addb.js"></script>
+<script>
+(function(pym){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = pym || {};
+s.src = "\/\/aggressivestruggle.com\/bxXoVrsVd.GblJ0gYUWIcy\/Ie-m_9\/uEZPUflekKPvTpYL3nMCDPco0oMxj\/E\/t\/Ncj\/cawHNEzwQ\/yJMyge";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+<script>
+(function(fapr){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = fapr || {};
+s.src = "\/\/aggressivestruggle.com\/bLXPV.s\/d-GalF0sY\/WUc_\/sehmE9TuVZdUmljkwP\/TlYI3\/MfDTcz0aN\/TdAjt\/Nojcc\/wTNXzUQh1XM_Qi";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+  !--iklan-->
+  
+  </body>
+
+  </html>
